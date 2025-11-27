@@ -1,0 +1,20 @@
+# 1. Django 2.2.24: Known SQL Injection vulnerabilities (CVE-2021-33203)
+Django==2.2.24
+
+# 2. PyYAML 5.3: Critical Deserialization vulnerability (CVE-2020-14343)
+PyYAML==5.3
+
+# 3. Requests 2.19.1: Old version, relies on vulnerable urllib3/idna (Transitive)
+requests==2.19.1
+
+# 4. Pillow 8.0.1: Contains buffer overflow vulnerabilities (CVE-2021-27921)
+Pillow==8.0.1
+
+# 5. Lxml 4.6.2: XML External Entity (XXE) vulnerabilities (CVE-2021-28957)
+lxml==4.6.2
+
+# 6. Flask 1.0.2: Old web framework, pulls in Werkzeug/Jinja2 (Transitive vulnerabilities)
+Flask==1.0.2
+
+# 7. Paramiko 2.7.1: SSH library, authentication bypass issues (Transitive deps like cryptography)
+paramiko==2.7.1
